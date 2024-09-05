@@ -45,3 +45,30 @@ Return type of variables in JavaScript
        Function  =>  function
        Object  =>  object
 */
+
+/* ***************************************** 
+There are 2 types of Memory -> Stack and Heap
+Stack -> Primitve     // They are pass by value
+Heap -> Non-Primitve   // They are pass by reference
+*/
+
+
+let name = "Krish";
+let name2 = name;
+name2 = "Hitesh"
+console.log(name , name2)  // There is no change in name as it is pass by value.
+
+
+// This is reverse in objects
+let obj = {
+    name : "Krish",
+    roll : 51
+}
+
+let obj2 = obj
+
+console.log(obj2)
+obj2.roll = 21
+
+console.log(obj,obj2)
+
