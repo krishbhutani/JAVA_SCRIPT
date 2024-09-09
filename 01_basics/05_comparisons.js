@@ -1,4 +1,4 @@
-// Comparing Different Data Types is Unpedictable.
+// Comparing Different Data Types is Unpredictable.
 
 // console.log("2">1)
 // console.log("233">2333)
